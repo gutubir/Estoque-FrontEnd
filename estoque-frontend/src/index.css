@@ -24,11 +24,27 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  background-color: #ecf0f1; 
 }
+
+/* garante que o React ocupe a tela toda */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* área principal da aplicação, centralizada e com tamanho padrão */
+main {
+  flex: 1;
+  max-width: 1200px;   /* largura fixa para todas as telas */
+  width: 100%;
+  margin: 0 auto;      /* centraliza na horizontal */
+  padding: 2rem 1rem 4rem;
+  box-sizing: border-box;
+}
+
 
 h1 {
   font-size: 3.2em;
@@ -65,4 +81,5 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  
 }
