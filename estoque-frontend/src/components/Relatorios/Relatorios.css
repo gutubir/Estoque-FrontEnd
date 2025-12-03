@@ -17,12 +17,12 @@
 }
 
 .tab:hover {
-  color: #2c3e50;
+  color: #535353;
 }
 
 .tab.active {
-  color: #3498db;
-  border-bottom-color: #3498db;
+  color: #333333;
+  border-bottom-color: #272727;
   font-weight: 600;
 }
 
@@ -70,17 +70,17 @@
 .badge {
   display: inline-block;
   padding: 0.25rem 0.75rem;
-  border-radius: 12px;
+  border-radius: 4px;
   font-size: 0.85rem;
   font-weight: 600;
 }
 
 .badge-entrada {
-  background-color: #d4edda;
-  color: #155724;
+  background-color: #e5f7e9;
+  color: #00412c;
 }
 
 .badge-saida {
-  background-color: #f8d7da;
-  color: #721c24;
+  background-color: #f5eded;
+  color: #b62f2f;
 }
