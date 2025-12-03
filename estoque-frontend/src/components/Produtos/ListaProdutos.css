@@ -1,5 +1,5 @@
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
@@ -13,11 +13,11 @@
 
 .header-secao h2 {
   margin: 0;
-  color: #2c3e50;
+  color: #272727;
 }
 
 .btn-primary {
-  background-color: #3498db;
+  background-color: #272727;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -28,7 +28,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #2980b9;
+  background-color: #000000;
 }
 
 .tabela-produtos {
@@ -36,19 +36,19 @@
   border-collapse: collapse;
   background: white;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  border-radius: 8px;
+  border-radius: 4px;
   overflow: hidden;
 }
 
 .tabela-produtos th,
 .tabela-produtos td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid #ecf0f1;
+  padding: 0.8rem;
+  text-align: center;
+  border-bottom: 1px solid #d5d8d8;
 }
 
 .tabela-produtos th {
-  background-color: #34495e;
+  background-color: #272727;
   color: white;
   font-weight: 600;
 }
@@ -65,25 +65,27 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
-  transition: opacity 0.2s;
+  transition: opacity 0.1s;
 }
 
 .btn-editar {
-  background-color: #f39c12;
-  color: white;
+  background-color: #2a5849;
+  color: rgb(255, 255, 255);
 }
 
 .btn-editar:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  background: #00412c
 }
 
 .btn-deletar {
-  background-color: #e74c3c;
-  color: white;
+  background-color: #b62f2f;
+  color: rgb(255, 255, 255);
 }
 
 .btn-deletar:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  background: #910c0c
 }
 
 .erro {
